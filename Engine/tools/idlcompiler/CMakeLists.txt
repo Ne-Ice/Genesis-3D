@@ -62,7 +62,7 @@ INCLUDE_DIRECTORIES(
 
 	# should remove later
 	${CMAKE_SOURCE_DIR}/
-	${CMAKE_SOURCE_DIR}/tools	
+	${CMAKE_SOURCE_DIR}/tools
 )
 
 ADD_EXECUTABLE( 
@@ -99,4 +99,4 @@ TARGET_LINK_LIBRARIES(
 	optimized ${CMAKE_SOURCE_DIR}/../bin/lib/Foundation/Foundation.lib
 )
 
-_MACRO_COPY_T0_BINARY_DIR_AFTER_BUILD( IdlcCompiler .exe )
+#_MACRO_COPY_T0_BINARY_DIR_AFTER_BUILD( IdlcCompiler .exe )

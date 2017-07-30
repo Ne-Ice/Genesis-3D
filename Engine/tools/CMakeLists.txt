@@ -27,5 +27,5 @@
 ##################################################################################
 
 #sub directories
-#ADD_SUBDIRECTORY( idlcompiler )
+ADD_SUBDIRECTORY( idlcompiler )
 
